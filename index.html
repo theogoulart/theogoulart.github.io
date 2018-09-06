@@ -1,77 +1,81 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>theogoulart</title>
-    <link href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Francois+One|Lobster" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="/styles.css">
-  </head>
+<head>
+  <title>theogoulart</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" >
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
 
-  <body>
-    
-<header>
-  <div class="header__container">
-    <div class="brand__container">
-      <img src="https://imageshack.com/a/img922/1280/xRlMkf.png" alt="Foto" width="50" height="50">
-      <span class="brand">theogoulart</span>
-    </div>
-    <menu class="menu">
-      <a href="#whoami">sobre mim</a>
-      <a target="_blank" href="https://codepen.io/theogoulart"><i class="fab fa-codepen"></i></a>
-      <a target="_blank" href="https://github.com/theogoulart"><i class="fab fa-github"></i></a>
-    </menu>
-    <i class="fa fa-bars"></i>
-  </div>
-</header>
-<section>
-  <div class="banner_one">Minha história</div>
-  <div class="banner_two">Meus Skills</div>
-</section>
-<h1 id="whoami">Quem sou eu?</h1>
-<main>
-  <div class="block">
-    <div>
-      <strong>Full-stack developer</strong>
-      <p>Trabalho no <a target="_blank" href="https://www.promobit.com.br">Promobit</a> fazendo features maneiras com mais dois devs e ajudando a comunidade a economizar. </p><p>Pode nos chamar de...</p>
-    </div>
-    <div class="image__container">
-      <img src="https://imageshack.com/a/img924/8668/AJkMir.jpg" alt="hackerman">
-    </div>
-  </div>
-  <div class="block">
-    <div>
-      <strong>Não sou designer</strong>
-      <div>
-        <q>Como já deve ter percebido</q>
-        <cite>Goulart, Theo.</cite>
+<body>
+  
+  <div class="body__container">
+    <header class="header">
+      <div class="container">
+        <div class="brand">theo goulart</div>
+        <menu class="menu">
+          <ul></ul>
+          <li class="menu__item"> <a href="#">Sobre mim</a></li>
+          <li class="menu__item"> <a href="#">Portfolio</a></li>
+          <li class="menu__item"> <a href="#">Contato</a></li>
+        </menu>
       </div>
-    </div>
-    <div class="image__container">
-      <img src="https://imageshack.com/a/img924/2287/prKDIc.jpg" alt="Ya, Really">
-    </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="container"><strong class="title">Theo Goulart</strong>
+          <h1 class="subtitle">Full Stack web developer </h1>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container"></div>
+      </section>
+      <section class="portfolio">
+        <div class="container">
+          <div class="cards__container">
+            <a href="https://github.com/theogoulart" target="_blank">
+              <div class="card">
+                <p class="fa fa-github"></p>
+                <p class="card__desc">APIs e aplicativos web, tudo no github para você ver e testar</p>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/theogoulart/" target="_blank">
+              <div class="card">
+                <p class="fa fa-linkedin"></p>
+                <p class="card__desc">Meu curriculum, minha carreira.</p>
+              </div>
+            </a>
+            <a href="https://codepen.io/theogoulart/" target="_blank">
+              <div class="card">
+                <p class="fa fa-codepen"></p>
+                <p class="card__desc">Desenhos e layouts criados com html5, css3 e javascript</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="contact">
+      <div class="container">
+        <div class="message__container">
+          <p class="message">Escreva uma mensagem para mim!</p>
+          <p>Como eu fiz este site? Como eu comecei? Para onde quero ir? Do que são feitos os programadores? </p><br/>
+          <p>Sinta-se à vontade para me perguntar qualquer coisa.</p>
+        </div>
+        <form action=""><label>Email</label><input type="text" /><label>Mensagem</label><textarea name="" cols="30" rows="5"></textarea><button>Enviar mensagem</button></form>
+      </div>
+    </section>
+    <footer class="footer">
+      <a href="https://github.com/theogoulart" target="_blank">
+        <p class="fa fa-github"></p>
+      </a>
+      <a href="https://www.linkedin.com/in/theogoulart/" target="_blank">
+        <p class="fa fa-linkedin"></p>
+      </a>
+      <a href="https://codepen.io/theogoulart/" target="_blank">
+        <p class="fa fa-codepen"></p>
+      </a>
+    </footer>
   </div>
-  <div class="block">
-    <div>
-      <strong>Gosto de Games</strong>
-      <p>Memes, música, filmes, esportes e outras coisas.</p><p>Sou nerd desde criança e na adolescencia pensei em ser várias coisas: desenhista, advogado, engenheiro mecânico, gerente de projetos, mobile developer e outras coisas. Demorei a achar minha vocação.</p>
-    </div>
-  </div>
-  <div class="block">
-    <div>
-      <strong>Quero muito ser reconhecido</strong>
-      <p>No fim da faculdade descobri o que queria fazer da vida. O site <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a> me ajudou a enxergar que eu queria ser full-stack.</p>
-      <p>Quero ser reconhecido entre startups. Estou estudando muito para isso e quero realizar algo grande um dia.</p>
-    </div>
-  </div>
-</main>
-<footer>
-  <h2>Quer entrar em contato comigo?</h2>
-</footer>
-<footer>
-  <a href="https://www.facebook.com/theogoulart" target="_blank"><i class="fab fa-facebook-f"></i></a>
-  <a href="https://www.linkedin.com/in/theogoulart/" target="_blank"><i class="fab fa-linkedin"></i></a>
-  <a title="Promobit" class="promobit" target="_blank" href="https://www.promobit.com.br/"></a>
-</footer>
-  </body>
+</body>
 </html>
