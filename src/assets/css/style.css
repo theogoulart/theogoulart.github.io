@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+  font-family: helvetica;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-color: #eee;
+}
+.body__container {
+  max-width: 1280px;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  box-shadow: 0px 1px 3px black;
+}
+.brand {
+  display: inline-block;
+  padding: 20px 0;
+  font-size: 1.5em;
+  color: #474747;
+}
+.menu {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  float: right;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  color: #333;
+}
+.menu__item {
+  display: inline-block;
+  margin-left: 20px;
+  padding-right: 20px;
+}
+.menu__item:last-of-type {
+  padding-right: 0;
+}
+.menu__item a {
+  font-size: 1.2em;
+}
+.container {
+  position: relative;
+  max-width: 1024px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 65px 0 70px;
+  background-color: #41516d;
+  color: white;
+  text-align: center;
+}
+.banner .title {
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: -1px;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25), -1px -1px 10px rgba(0, 0, 0, 0.25);
+}
+.banner .subtitle {
+  color: #ddd;
+  font-weight: normal;
+  font-size: 1.5em;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.portfolio {
+  padding: 70px 0 20px;
+  text-align: center;
+}
+.portfolio h1 {
+  font-size: 2em;
+  margin-bottom: 60px;
+  color: #333333;
+}
+.cards__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  justify-self: center;
+  float: left;
+  height: 280px;
+  width: 280px;
+  color: #474747;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 1.5em;
+  margin-bottom: 50px;
+  box-shadow: 0px 1px 10px rgba(2, 0, 2, 0.5);
+}
+.card .fa {
+  margin-top: 40px;
+  font-size: 4em;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #999;
+}
+.card:hover {
+  transition: 200ms;
+  transform: scale(1.02);
+  box-shadow: 0px 1px 15px rgba(2, 0, 2, 0.5);
+}
+.card__desc {
+  padding: 20px 20px 10px 20px;
+}
+.fa-github {
+  color: #24292E;
+}
+.fa-linkedin {
+  color: #0077B5;
+}
+.contact {
+  padding: 70px 0;
+  background-color: #333;
+}
+.contact .container {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact label {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.contact .message__container {
+  flex: 1 0;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+.contact .message {
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.contact p {
+  color: #eee;
+}
+.contact form {
+  flex: 1 0;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.contact button {
+  padding: 10px;
+  background-color: #3388c4;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #eee;
+  cursor: pointer;
+}
+.contact button:hover {
+  background-color: #2e7ab0;
+}
+.contact input,
+.contact textarea {
+  border: 0;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.contact input {
+  height: 40px;
+}
+.footer {
+  background-color: #333;
+  border-top: 1px solid #282828;
+  padding: 20px;
+  text-align: center;
+}
+.footer p {
+  margin: 0 20px;
+  font-size: 2em;
+  color: #fff;
+}
