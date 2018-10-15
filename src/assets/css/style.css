@@ -68,8 +68,9 @@ a {
   color: #3388c4;
   text-decoration: underline;
 }
-@media (max-width: 580px) {
+@media screen and (max-width: 580px) {
   .body__container {
+    max-width: 100%;
     flex-direction: column;
   }
 }
