@@ -10,82 +10,58 @@
   <meta name="description" content="Theo Goulart is a Brazil based full stack developer looking forward to making brazillian startups thrive and making useful web apps that could provide people nice experiences.">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" >
+  <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="file:///var/www/theogoulart.github.io/src/assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="/src/assets/css/style.css">
 </head>
 
 <body>
   
-  <div class="body__container">
-    <header class="header">
-      <div class="container">
-        <div class="brand">theo goulart</div>
-        <menu class="menu">
-          <ul></ul>
-          <li class="menu__item"> <a href="#portfolio">Sobre mim</a></li>
-          <!--<li class="menu__item"> <a href="#">Portfolio</a></li>-->
-          <li class="menu__item"> <a href="#contato">Contato</a></li>
-        </menu>
+  <div class="body__container flex flex-row rounded">
+
+    <section class="details flex flex-column border-right">
+
+      <div class="image__container center flex-column p4">
+        <img class="circle mb2" height="140" width="140" src="https://avatars0.githubusercontent.com/u/6951188?s=400&v=4" alt="Theo Goulart">
+        <p class="bold upcs p1"><strong>Theo Goulart</strong></p>
+        <p class="small upcs light-gray">Full Stack Developer</p>
       </div>
-    </header>
-    <main>
-      <section class="banner">
-        <div class="container"><strong class="title">Theo Goulart</strong>
-          <h1 class="subtitle">Full Stack web developer </h1>
-        </div>
-      </section>
-      <section class="about">
-        <div class="container"></div>
-      </section>
-      <section id="portfolio" class="portfolio">
-        <div class="container">
-          
-          <h1>Saiba mais sobre meus trabalhos</h1>
-          
-          <div class="cards__container">
-            <a href="https://github.com/theogoulart" target="_blank">
-              <div class="card">
-                <p class="fa fa-github"></p>
-                <p class="card__desc">APIs e aplicativos web, tudo no github para você ver e testar</p>
-              </div>
-            </a>
-            <a href="https://www.linkedin.com/in/theogoulart/" target="_blank">
-              <div class="card">
-                <p class="fa fa-linkedin"></p>
-                <p class="card__desc">Meu curriculum, minha carreira.</p>
-              </div>
-            </a>
-            <a href="https://codepen.io/theogoulart/" target="_blank">
-              <div class="card">
-                <p class="fa fa-codepen"></p>
-                <p class="card__desc">Desenhos e layouts criados com html5, css3 e javascript</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-    <section id="contato" class="contact">
-      <div class="container">
-        <div class="message__container">
-          <p class="message">Escreva uma mensagem para mim!</p>
-          <p>Como eu fiz este site? Como eu comecei? Para onde quero ir? Do que são feitos os programadores? </p><br/>
-          <p>Sinta-se à vontade para me perguntar qualquer coisa.</p>
-        </div>
-        <form action=""><label>Email</label><input type="text" /><label>Mensagem</label><textarea name="" cols="30" rows="5"></textarea><button>Enviar mensagem</button></form>
+      <div class="links flex flex-column mb3 p3">
+        <a href="#">
+          <h3 class="mb2 flex items-center justify-end">theo_goulart@hotmail.com <i class="fa fa-envelope circle p1 border"></i></h3>
+        </a>
+        <a href="https://www.theogoulart.com" target="_blank">
+          <h3 class="mb2 flex items-center justify-end">www.theogoulart.com <i class="fa fa-globe circle p1 border"></i></h3>
+        </a>
+        <a href="https://github.com/theogoulart" target="_blank">
+          <h3 class="mb2 flex items-center justify-end">theogoulart <i class="fa fa-github circle p1 border"></i></h3>
+        </a>
+        <a href="https://www.linkedin.com/in/theogoulart/" target="_blank">
+          <h3 class="mb2 flex items-center justify-end">theogoulart <i class="fa fa-linkedin circle p1 border"></i></h3>
+        </a>
+        <a href="https://codepen.io/theogoulart/" target="_blank">
+          <h3 class="mb2 flex items-center justify-end">theogoulart <i class="fa fa-codepen circle p1 border"></i></h3>
+        </a>
+        <a href="#">
+          <h3 class="mb2 flex items-center justify-end">São Paulo, SP - Brazil <i class="fa fa-map-marker circle p1 border"></i></h3>
+        </a>
       </div>
     </section>
-    <footer class="footer">
-      <a href="https://github.com/theogoulart" target="_blank">
-        <p class="fa fa-github"></p>
-      </a>
-      <a href="https://www.linkedin.com/in/theogoulart/" target="_blank">
-        <p class="fa fa-linkedin"></p>
-      </a>
-      <a href="https://codepen.io/theogoulart/" target="_blank">
-        <p class="fa fa-codepen"></p>
-      </a>
-    </footer>
+
+    <section class="portfolio p3 fit">
+      <div class="py3">
+        <h2 class="mb3 bold upcs">About me</h2>
+        <p class="mb2">Analytical, persevering, relaxed and open minded, qualities that make me a good team worker and help me succeed on my projects. Also, I'm interested on team sports and outside activities such as volleyball and football.</p>
+        <p class="mb4">I've worked on some projects, including mobile applications, websites and entrepreneurial projects, such as Promobit, a brazillian startup growing at fast pace.</p>
+
+        <h2 class="bold upcs my3">My portfolio</h2>
+        <p class="mb2">Checkout my online pens on <a href="https://codepen.io/theogoulart/" target="_blank">codepen</a>, where I developed almost every project there is on freeCodeCamp.org front-end and data visualization certificates (updated on 14/10/2018).</p>
+        <p class="mb2">Also, take a look at my projects here on <a href="https://github.com/theogoulart" target="_blank">github</a>! There is not much to see, but it shows a bit of my interest in web technologies.</p>
+      </div>
+    </section>
+
   </div>
+
+
 </body>
 </html>
