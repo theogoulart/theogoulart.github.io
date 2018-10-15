@@ -72,5 +72,6 @@ a {
   .body__container {
     max-width: 100%;
     flex-direction: column;
+    margin-top: 0;
   }
 }
